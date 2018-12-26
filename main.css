@@ -1,0 +1,96 @@
+body {font-family: Arial, Helvetica, sans-serif;
+        background-color: grey;
+       }
+        * {box-sizing: border-box;
+        }
+
+        p,h1{
+            width: 70%;
+            margin-left:15%; 
+            margin-right:15%;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+            }
+
+        .sign_up{
+            border-radius: 25px;
+            width:60%;
+            margin-top:7%; 
+            margin-left:20%; 
+            margin-right:20%;
+            border:3px solid #ccc;
+            border-color: blue;
+            background-color: #ffaa80;
+            
+        }
+
+        .clearfix{
+            
+            margin: 5%;
+        }
+
+        /* Full-width input fields */
+        input[type=text], input[type=password], input[type=email], [type=textarea] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        border-radius: 25px;
+        background: #f1f1f1;
+        }
+
+        input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus, [type=textarea]:focus{
+        background-color: #ffff99;
+        border-radius: 5px;
+        outline: none;
+        }
+        input[type=text]:hover, input[type=password]:hover ,input[type=email]:hover, [type=textarea]:hover{
+        background-color: #ffff99;
+        outline: none;
+        }
+
+
+        table{
+            width:70%;
+            margin-left:15%; 
+            margin-right:15%;
+        }
+    
+
+        /* Set a style for all buttons */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+            width: 70%;
+            opacity: 0.9;
+            border-radius: 25px;
+        }
+
+        .signupbtn{
+            margin-left:15%;
+        }
+        button:hover {
+            border-radius: 10px;
+        opacity:1;
+        }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+        
+        padding: 14px 20px;
+        background-color: #f44336;
+        
+        }
+
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn, .signupbtn {
+        float: left;
+        width: 35%;
+        }
